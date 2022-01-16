@@ -11,7 +11,7 @@ const QuestionBox = ({question, options, selected}) =>{
                  className= "answerBtn" 
                  onClick={()=>{
                     setAnswer([text]);
-                    selected([text]);
+                    selected(text);
                 }}
                 >
                     {text}
