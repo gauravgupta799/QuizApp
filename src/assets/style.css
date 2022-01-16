@@ -59,7 +59,7 @@
   outline: none;
   border: none;
   font-size: 1em;
-  color: rgb(255, 255, 255);
+  color: #f8e809;
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
@@ -68,14 +68,17 @@
 .score-board {
   position: relative;
   height: 700px;
+  background: rgb(230, 222, 222);
 }
 
 .score {
   position: absolute;
   width: 1024px;
   font-size: 3em;
+  font-weight: bold;
   top: 250px;
   text-align: center;
+  color: #008000;
 }
 
 .playBtn {
@@ -83,8 +86,8 @@
   font-size: 1.4em;
   padding: 10px;
   top: 350px;
-  background-color: rgb(12, 128, 12);
-  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  color: rgb(225, 250, 6);
   width: 150px;
   left: 0px;
   right: 0px;
